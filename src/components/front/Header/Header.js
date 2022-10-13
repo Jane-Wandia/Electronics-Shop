@@ -12,6 +12,25 @@ const Header = () => {
             </Link>
         </h1>
       </div>
+      <div className='header-links'>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <Link to="/Signup">Signup</Link>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <Link to="/cart" className='cart'>
+                <i class="fa fa-shopping-cart"></i>
+              </Link>
+            </li>
+          </ul>
+      </div>
     </header>
   )
 
