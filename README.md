@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Shopping Cart Project
+
+## Description:
+
+This is a mock online shopping website based on https://www.skatewarehouse.com that was built using React. Users can navigate the website, shop for different products based on brand or product type, add items to the cart, and "checkout" to submit their order. The primary goals of this project were to 1) practice using React Router to navigate to different pages on the site and 2) practice using hooks to manipulate state accross components (for example, allowing a user to add a product to their cart from the Shop page and have the added product and all its info appear on the Cart page).
