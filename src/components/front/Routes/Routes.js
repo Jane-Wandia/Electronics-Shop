@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Products from "../Products/Products"
+import {Route, Switch,} from "react-router-dom";
 
 const Routes = () => {
   return (
     <div>
-        Routes
+        <Switch>
+        <Route path="/" exact>
+            <Products/>
+        </Route>
+        </Switch>
         </div>
-  )
-}
+  );
+};
 
-export default Routes
+export default Routes;
